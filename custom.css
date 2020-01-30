@@ -1,0 +1,143 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+
+/* GENERAL */
+body {
+   font-family: "Open Sans", sans-serif; 
+   margin: 0;
+   color: white;
+}
+
+
+/*  NAV  */
+nav {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 25px 21.1%;
+    display: flex;
+    justify-content: space-between;
+}
+nav div{
+    display:flex;
+    align-items: center;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 34px;
+
+}
+.divider {
+    width: 1px;
+    height: 15px;
+    background-color: white;
+    margin-left: 34px;
+}
+
+
+
+/* HEADER */
+header{
+    background-image: url("../images/background-image.jpg");
+    height: 100vh;
+    text-align: center;
+    background-size: cover; /*no repeat of the image*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*place sentences in each rows*/
+}
+h1{
+   margin: 0;
+   font-size: 70px;
+   font-weight: 700; 
+}
+
+header p{
+    font-weight: 700;
+    margin: 16px 0 34px 0; /*Top right bottom left margin*/
+} 
+
+button {
+    background-color: rgb(29,185,84);
+    padding: 17px 45px; /*topbottom margin, leftright*/
+    border-radius: 24px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    padding: 80px 21.1% 50px 21.1%;   
+    display: flex;
+    justify-content: space-around; /*put them horigentally divided equally*/
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*style the list*/
+ul {
+    list-style: none; /*no bullet points*/
+    margin-top: 15px;
+}
+
+.title{
+    color:#919496;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+li{
+    margin-bottom: 15px; /*between lists*/
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.row{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color:#919496;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.secondary-links {
+    word-spacing: 10px;
+}
+
+.secondary-links a {
+    color: #919496;
+    margin-right: 20px;
+}
+
+.footer-logo, .logos, ul {
+    align-self: flex-start;
+}
+
+.logos {
+    margin: 25px 0 0 9.5%;
+}
+
+.logos img {
+    margin-left: 10px;
+    height: 54px;
+
+}
